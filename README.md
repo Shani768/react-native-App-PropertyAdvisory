@@ -36,6 +36,7 @@ Whether you're looking to **buy**, **rent**, or **discover agencies**, this app 
 ## 📱 Technologies Used
 
 - **React Native (Expo)**
+- **TypeScript** for static typing
 - **React Navigation**
 - **Axios** for API requests
 - **Expo Maps** for location integration
