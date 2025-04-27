@@ -1,50 +1,75 @@
-# Welcome to your Expo app 👋
+# 🏠 Property Advisory - React Native Expo App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to **Property Advisory** — a powerful mobile app built with **React Native (Expo)**, designed to make property searching simple, smart, and beautiful.  
+Whether you're looking to **buy**, **rent**, or **discover agencies**, this app has it all!
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- 🔍 **Property Search**
+  - Fetch properties based on `For Sale` or `For Rent` options.
+  - Advanced **auto-suggestion** while typing search queries.
+  - **Filter properties** beautifully using **Gorhom Bottom Sheet**.
+  - **Filter properties** using advanced criteria (price, location, type, etc.).
 
-2. Start the app
+- 🏡 **Beautiful Property Cards**
+  - Sleek, responsive, and user-friendly property card designs using **NativeWind** (TailwindCSS for React Native).
 
-   ```bash
-    npx expo start
-   ```
+- 📍 **Map Integration**
+  - View property locations directly on an interactive **Expo Map**.
+  - View **agency locations** on a map inside a modal.
 
-In the output, you'll find options to open the app in a
+- 🏢 **Agencies & Agents**
+  - Fetch agencies and view their details.
+  - Display a list of agents working under a specific agency using a **modal view**.
+  - Separate **agency listing page** showing all properties listed by an agency.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- 🗂️ **Listing Pages**
+  - Dedicated pages to show:
+    - Properties by agency
+    - Search-based properties
+    - Filtered results
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 📱 Technologies Used
 
-When you're ready, run:
+- **React Native (Expo)**
+- **React Navigation**
+- **Axios** for API requests
+- **Expo Maps** for location integration
+- **Gorhom Bottom Sheet** for modern filter modal
+- **NativeWind** for TailwindCSS styling in React Native
+- **Modal** components for clean UI
+
+---
+
+## 🛠️ Installation
+
+1. Clone the repository:
 
 ```bash
-npm run reset-project
+git clone https://github.com/shani768/react-native-App-PropertyAdvisory.git
+cd react-native-App-PropertyAdvisory
+
+npm install
+## add environment variables
+EXPO_PUBLIC_BAYUT_API_KEY=
+EXPO_PUBLIC_AGENCIES_API_KEY=
+npx expo start
+
 ```
+## Demo Video
+[Watch Demo](https://shani-project-videos.s3.eu-north-1.amazonaws.com/property_advisory/PV.mp4)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+## 📸 Screenshots
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://shani-project-videos.s3.eu-north-1.amazonaws.com/property_advisory/SS1.jpg" width="300" />
+  <img src="https://shani-project-videos.s3.eu-north-1.amazonaws.com/property_advisory/SS2.jpg" width="300" />
+  <img src="https://shani-project-videos.s3.eu-north-1.amazonaws.com/property_advisory/SS2.jpg" width="300" />
+</div>
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
