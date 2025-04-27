@@ -69,8 +69,8 @@ npx expo start
 
 
 <div style="display: flex; justify-content: space-between;">
+  <img src="https://shani-project-videos.s3.eu-north-1.amazonaws.com/property_advisory/SS3.jpg" width="300" />
+  <img src="https://shani-project-videos.s3.eu-north-1.amazonaws.com/property_advisory/SS2.jpg" width="300" />
   <img src="https://shani-project-videos.s3.eu-north-1.amazonaws.com/property_advisory/SS1.jpg" width="300" />
-  <img src="https://shani-project-videos.s3.eu-north-1.amazonaws.com/property_advisory/SS2.jpg" width="300" />
-  <img src="https://shani-project-videos.s3.eu-north-1.amazonaws.com/property_advisory/SS2.jpg" width="300" />
 </div>
 
